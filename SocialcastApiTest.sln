@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialcastApiTest", "SocialcastApiTest\SocialcastApiTest.csproj", "{461AC48C-4261-47E6-9F59-407F152B5FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialcastApi", "Communication\SocialcastApi.csproj", "{0083B53F-CBEE-4C90-8C1C-19088FB65D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericHelpers", "GenericHelpers\GenericHelpers.csproj", "{01C890E2-5394-4E9C-B8C1-6911F7F99029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialCastApiHelper", "SocialCastApiHelper\SocialCastApiHelper.csproj", "{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461AC48C-4261-47E6-9F59-407F152B5FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461AC48C-4261-47E6-9F59-407F152B5FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461AC48C-4261-47E6-9F59-407F152B5FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461AC48C-4261-47E6-9F59-407F152B5FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0083B53F-CBEE-4C90-8C1C-19088FB65D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0083B53F-CBEE-4C90-8C1C-19088FB65D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0083B53F-CBEE-4C90-8C1C-19088FB65D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0083B53F-CBEE-4C90-8C1C-19088FB65D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C890E2-5394-4E9C-B8C1-6911F7F99029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C890E2-5394-4E9C-B8C1-6911F7F99029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C890E2-5394-4E9C-B8C1-6911F7F99029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C890E2-5394-4E9C-B8C1-6911F7F99029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
