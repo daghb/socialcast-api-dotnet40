@@ -134,9 +134,9 @@
       <Project>{01C890E2-5394-4E9C-B8C1-6911F7F99029}</Project>
       <Name>GenericHelpers</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SocialCastApiHelper\SocialCastApiHelper.csproj">
+    <ProjectReference Include="..\SocialCastApiHelper\SocialcastApiHelper.csproj">
       <Project>{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}</Project>
-      <Name>SocialCastApiHelper</Name>
+      <Name>SocialcastApiHelper</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

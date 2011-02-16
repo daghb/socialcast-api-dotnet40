@@ -12,6 +12,8 @@ namespace SocialcastApiTest.Controllers
         {
             ViewBag.Message = "Welcome to the Socialcast test site";
 
+            
+
             return View();
         }
 

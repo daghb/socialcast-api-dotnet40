@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialcastApi", "Communicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericHelpers", "GenericHelpers\GenericHelpers.csproj", "{01C890E2-5394-4E9C-B8C1-6911F7F99029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialCastApiHelper", "SocialCastApiHelper\SocialCastApiHelper.csproj", "{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialcastApiHelper", "SocialCastApiHelper\SocialcastApiHelper.csproj", "{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialcastDataModel", "SocialcastDataModel\SocialcastDataModel.csproj", "{1835B419-1056-4B80-B7B3-907B70B88763}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1835B419-1056-4B80-B7B3-907B70B88763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1835B419-1056-4B80-B7B3-907B70B88763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1835B419-1056-4B80-B7B3-907B70B88763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1835B419-1056-4B80-B7B3-907B70B88763}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
