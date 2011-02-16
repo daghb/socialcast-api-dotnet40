@@ -6,9 +6,8 @@ using System.Net;
 using System.Security.Cryptography.X509Certificates;
 using System.Net.Security;
 using System.IO;
-using SocialcastApi;
 
-namespace SocialCastApiHelper
+namespace SocialcastApiHelper
 {
     public class Communicate
     {
@@ -23,9 +22,9 @@ namespace SocialCastApiHelper
             // Create the web request
             HttpWebRequest request = WebRequest.Create(requestURL) as HttpWebRequest;
 
+            request.Credentials = new System.Net.NetworkCredential(credentials.Username, credentials.Password);
             request.ContentType = "application/x-www-form-urlencoded";
             request.Method = "POST";
-            data = "&email=" + credentials.Username + "&password=" + credentials.Password;
 
             byte[] bytes = Encoding.UTF8.GetBytes(data);
 

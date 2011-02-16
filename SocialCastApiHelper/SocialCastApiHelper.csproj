@@ -8,7 +8,7 @@
     <ProjectGuid>{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SocialCastApiHelper</RootNamespace>
+    <RootNamespace>SocialcastApiHelper</RootNamespace>
     <AssemblyName>SocialCastApiHelper</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

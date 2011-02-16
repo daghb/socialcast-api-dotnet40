@@ -138,6 +138,10 @@
       <Project>{C5EF2C48-3BB3-4BB8-AA9C-0ED38C74CF58}</Project>
       <Name>SocialcastApiHelper</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SocialcastDataModel\SocialcastDataModel.csproj">
+      <Project>{1835B419-1056-4B80-B7B3-907B70B88763}</Project>
+      <Name>SocialcastDataModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

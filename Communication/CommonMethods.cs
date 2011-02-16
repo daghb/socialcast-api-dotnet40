@@ -8,7 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 using Newtonsoft.Json;
 using System.IO;
 using System.Xml;
-using SocialCastApiHelper;
+using SocialcastApiHelper;
 using SocialcastDataModel;
 
 namespace SocialcastApi
@@ -29,12 +29,12 @@ namespace SocialcastApi
 
         public string GetAllCommunitiesForUser()
         {
-            return Communicate.PostServiceCall(socialcastUrl + authenticationApi, loggedOnUserCredentials, "");
+            return Communicate.PostServiceCall(socialcastUrl + authenticationApi, loggedOnUserCredentials, "&email=" + loggedOnUserCredentials.Username + "&password=" + loggedOnUserCredentials.Password);
         }
 
         public List<UserProfile> GetAllActiveUsers()
         {
-            string dataReturned = Communicate.PostServiceCall("https://" + loggedOnUserCredentials.SocialcastUrl + listAllActiveUsersApi, loggedOnUserCredentials, "");
+            string dataReturned = Communicate.PostServiceCall("https://" + loggedOnUserCredentials.SocialcastUrl + "/" + listAllActiveUsersApi, loggedOnUserCredentials, "");
 
             return JsonConvert.DeserializeObject<List<UserProfile>>(dataReturned);
         }

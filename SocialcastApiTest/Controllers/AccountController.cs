@@ -12,6 +12,7 @@ using SocialcastApi;
 using GenericHelpers;
 using Newtonsoft.Json;
 using System.Dynamic;
+using SocialcastApiHelper;
 
 namespace SocialcastApiTest.Controllers
 {
@@ -76,6 +77,8 @@ namespace SocialcastApiTest.Controllers
             var api = new CommonMethods(new SocialcastCredentials(username, password, socialcastUrl));
 
             var display = api.GetAllCommunitiesForUser();
+
+            Session["SocialcastApi"] = api;
 
             return display;
         }
