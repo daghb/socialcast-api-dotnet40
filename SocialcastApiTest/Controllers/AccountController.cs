@@ -43,7 +43,7 @@ namespace SocialcastApiTest.Controllers
         {
             if (ModelState.IsValid)
             {
-                var loginReturned = ValidateUser(model.UserName, model.Password);
+                var loginReturned = ValidateUser(model.UserName, model.Password, model.SocialcastUrl);
 
                 dynamic value = JsonConvert.DeserializeObject<DynamicDictionary>(loginReturned);
 
@@ -71,9 +71,9 @@ namespace SocialcastApiTest.Controllers
             return View(model);
         }
 
-        private string ValidateUser(string username, string password)
+        private string ValidateUser(string username, string password, string socialcastUrl)
         {
-            var api = new CommonMethods(new SocialcastCredentials(username, password, "movito"));
+            var api = new CommonMethods(new SocialcastCredentials(username, password, socialcastUrl));
 
             var display = api.GetAllCommunitiesForUser();
 

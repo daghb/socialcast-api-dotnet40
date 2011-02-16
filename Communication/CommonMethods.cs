@@ -17,6 +17,7 @@ namespace SocialcastApi
         private static string socialcastUrl = "https://socialcast.com/";
 
         private static string authenticationApi = "api/authentication.json";
+
         private static SocialcastCredentials loggedOnUserCredentials { get; set; }
 
         public CommonMethods(SocialcastCredentials credentials)

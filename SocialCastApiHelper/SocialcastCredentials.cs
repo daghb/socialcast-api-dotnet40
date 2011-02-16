@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace SocialcastApi
 {
@@ -9,13 +10,13 @@ namespace SocialcastApi
     {
         public string Username { get; set; }
         public string Password { get; set; }
-        public string Domain { get; set; }
+        public string SocialcastUrl { get; set; }
 
-        public SocialcastCredentials(string Username, string Password, string Domain)
+        public SocialcastCredentials(string Username, string Password, string SocialcastUrl)
         {
             this.Username = Username;
             this.Password = Password;
-            this.Domain = Domain;
+            this.SocialcastUrl = Regex.Replace(SocialcastUrl, "^(http|ftp|news)s?:\\/\\/", "");
         }
     }
 }

@@ -23,7 +23,6 @@ namespace SocialCastApiHelper
             // Create the web request
             HttpWebRequest request = WebRequest.Create(requestURL) as HttpWebRequest;
 
-            request.Credentials = new System.Net.NetworkCredential(credentials.Username, credentials.Password, credentials.Domain);
             request.ContentType = "application/x-www-form-urlencoded";
             request.Method = "POST";
             data = "&email=" + credentials.Username + "&password=" + credentials.Password;

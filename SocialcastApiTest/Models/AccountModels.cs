@@ -35,6 +35,11 @@ namespace SocialcastApiTest.Models
     public class LogOnModel
     {
         [Required]
+        [DataType(DataType.Url)]
+        [Display(Name = "Socialcast URL (ie. demo.socialcast.com)")]
+        public string SocialcastUrl { get; set; }
+
+        [Required]
         [Display(Name = "User name")]
         public string UserName { get; set; }
 
